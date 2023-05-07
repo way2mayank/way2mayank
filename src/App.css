@@ -12,7 +12,40 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/*  */
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+}
+.img-wrapper img {
+  width: 100px;
+  margin: -10px;
+}
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #333 0px 1px 5px;
+}
+.item{
+  float: left;
+  width: 120px;
+  display: inline-block;
+  padding: 20px;
+  height: 70px;
+}
 
+
+.add-to-cart img{
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+/*  */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
