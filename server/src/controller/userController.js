@@ -51,7 +51,6 @@ export const login = async (req, res) => {
         .status(400)
         .send({ success: false, message: "Check Email and password" });
     }
-    console.log(user);
 
     const token = jwt.sign(
       {
